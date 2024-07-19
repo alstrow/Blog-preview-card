@@ -83,6 +83,7 @@ body {
 
 .content .description {
     color: var(--Gray-500);
+    line-height: 1.5rem;
 }
 
 .profile {
@@ -95,6 +96,7 @@ body {
 .profile img {
     width: 2rem;
     height: auto;
+    filter: grayscale();
 }
 
 .profile p {
